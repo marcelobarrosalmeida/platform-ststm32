@@ -42,6 +42,10 @@
     "stm32cube": {
       "package": "framework-stm32cube",
       "script": "builder/frameworks/stm32cube.py"
+    },
+    "nuttx": {
+      "package": "framework-nuttx",
+      "script": "builder/frameworks/nuttx/nuttx.py"
     }
   },
   "packages": {
@@ -93,6 +97,10 @@
       "type": "debugger",
       "optional": true,
       "version": "~1.1000.0"
+    },
+    "framework-nuttx": {
+      "type": "framework",
+      "version": "~1.0.0"
     }
   }
 }
